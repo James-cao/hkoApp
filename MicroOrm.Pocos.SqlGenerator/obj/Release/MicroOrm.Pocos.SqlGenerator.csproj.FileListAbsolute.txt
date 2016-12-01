@@ -1,0 +1,6 @@
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Release\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Release\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Release\Dapper.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Release\Dapper.xml
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\obj\Release\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\obj\Release\MicroOrm.Pocos.SqlGenerator.pdb

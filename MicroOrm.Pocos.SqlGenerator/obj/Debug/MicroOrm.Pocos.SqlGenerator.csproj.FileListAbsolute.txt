@@ -1,0 +1,15 @@
+E:\BISNODE TEST PROJECTS\Poco Sql Generator\trunk\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\BISNODE TEST PROJECTS\Poco Sql Generator\trunk\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\BISNODE TEST PROJECTS\Poco Sql Generator\trunk\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\BISNODE TEST PROJECTS\Poco Sql Generator\trunk\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\++PH Refactoring\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\++PH Refactoring\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\++PH Refactoring\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\++PH Refactoring\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\++PH Refactoring\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.csprojResolveAssemblyReference.cache
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\obj\Debug\MicroOrm.Pocos.SqlGenerator.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Debug\Dapper.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\MicroOrm.Pocos.SqlGenerator\bin\Debug\Dapper.xml

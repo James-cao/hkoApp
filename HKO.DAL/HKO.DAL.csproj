@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28E4A872-46D6-4400-90FE-18957DE559A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HKO.DAL</RootNamespace>
+    <AssemblyName>HKO.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper, Version=1.50.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.1.50.1\lib\net45\Dapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.1.24160719\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration.cs" />
+    <Compile Include="DataConnection.cs" />
+    <Compile Include="DataRepository.cs" />
+    <Compile Include="IDataRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IHkoSifreRepository.cs" />
+    <Compile Include="Interfaces\Lookups\INkz7Repository.cs" />
+    <Compile Include="Interfaces\Lookups\IUgovorORaduRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IStrucnoObrazovanjeRepository.cs" />
+    <Compile Include="Interfaces\Lookups\INkz98Repository.cs" />
+    <Compile Include="Interfaces\Lookups\IGradoviOpcineRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IRodRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IKljucneDjelatnostiRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IDefaultTimeframeRepository.cs" />
+    <Compile Include="Interfaces\Lookups\IZupanijaRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IKljucneDjelatnostiRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IPodsektoriUSektoruRepository.cs" />
+    <Compile Include="Interfaces\Sektori\ISektorskaZanimanjaRHRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IZaposlenostStopaRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IObuhvatSektoraRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IDobRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IZaposljavanjeKljucDjelRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IZaposlenostUdjelRepository.cs" />
+    <Compile Include="Interfaces\Sektori\IZaposlenostBrojRepository.cs" />
+    <Compile Include="Interfaces\Sektori\ISektorRadnaSnagaRepository.cs" />
+    <Compile Include="Interfaces\Sektori\ISektorskaZanimanjaRodoviRepository.cs" />
+    <Compile Include="OracleDynamicParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Lookups\Nkz7Repository.cs" />
+    <Compile Include="Repositories\Lookups\HkoSifreRepository.cs" />
+    <Compile Include="Repositories\Lookups\UgovorORaduRepository.cs" />
+    <Compile Include="Repositories\Lookups\StrucnoObrazovanjeRepository.cs" />
+    <Compile Include="Repositories\Lookups\Nkz98Repository.cs" />
+    <Compile Include="Repositories\Lookups\GradoviOpcineRepository.cs" />
+    <Compile Include="Repositories\Lookups\RodRepository.cs" />
+    <Compile Include="Repositories\Lookups\KljucneDjelatnostiRepository.cs" />
+    <Compile Include="Repositories\Lookups\ZupanijaRepository.cs" />
+    <Compile Include="Repositories\Sektori\KljucneDjelatnostiRepository.cs" />
+    <Compile Include="Repositories\Sektori\PodsektoriUSektoruRepository.cs" />
+    <Compile Include="Repositories\Sektori\SektorskaZanimanjaRHRepository.cs" />
+    <Compile Include="Repositories\Sektori\ZaposlenostStopaRepository.cs" />
+    <Compile Include="Repositories\Sektori\ObuhvatSektoraRepository.cs" />
+    <Compile Include="Repositories\Sektori\DobRepository.cs" />
+    <Compile Include="Repositories\Lookups\DefaultTimeframeRepository.cs" />
+    <Compile Include="Repositories\Sektori\ZaposljavanjeKljucDjelRepository.cs" />
+    <Compile Include="Repositories\Sektori\ZaposlenostUdjelRepository.cs" />
+    <Compile Include="Repositories\Sektori\ZaposlenostBrojRepository.cs" />
+    <Compile Include="Repositories\Sektori\SektorRadnaSnagaRepository.cs" />
+    <Compile Include="Repositories\Sektori\SektorskaZanimanjaRodoviRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HKO.Models\HKO.Models.csproj">
+      <Project>{8c06f30d-ccb0-488c-9901-a7951b0ddb45}</Project>
+      <Name>HKO.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MicroOrm.Pocos.SqlGenerator\MicroOrm.Pocos.SqlGenerator.csproj">
+      <Project>{37efd853-cbff-4b7f-9568-615747ca7237}</Project>
+      <Name>MicroOrm.Pocos.SqlGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.2\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+E:\Bisnode Projects\HKO Portal\trunk\HKO\HKO.Models\bin\Debug\HKO.Models.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\HKO.Models\bin\Debug\HKO.Models.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\HKO.Models\obj\Debug\HKO.Models.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\HKO.Models\obj\Debug\HKO.Models.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\HKO.Models\obj\Debug\HKO.Models.csprojResolveAssemblyReference.cache

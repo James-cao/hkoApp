@@ -1,0 +1,11 @@
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\Bisnode.Logger.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\obj\Debug\Bisnode.Logger.pdb
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Bson.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Driver.Core.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Driver.dll
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Bson.xml
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Driver.xml
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\MongoDB.Driver.Core.xml
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\Bisnode.Logger.exe.config
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\bin\Debug\Bisnode.Logger.exe
+E:\Bisnode Projects\HKO Portal\trunk\HKO\Bisnode.Logger\obj\Debug\Bisnode.Logger.exe
